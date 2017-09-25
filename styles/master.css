@@ -1,5 +1,9 @@
 body{
 	margin: 0;
+	/*
+	background: url('IMG_20170123_192702.jpg') no-repeat;
+	background-size: cover;
+	*/
 }
 
 header {
@@ -57,4 +61,26 @@ nav ul li a {
 .divider {
 	background-color: rgba(0, 0, 0, 0.5);
 	height: 10px;
+}
+
+
+footer {
+	margin: 0;
+}
+
+footer p{
+	float: right;
+	margin-right: 20px;
+	margin-top: 55px;
+	color: black;
+	font-family: sans-serif;
+}
+
+.footer-text{
+	color: grey;
+}
+
+.footer-text:hover{
+	color: pink;
+
 }
