@@ -128,10 +128,9 @@ ul{
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top: 85%;
-	left: 50%;
+	top: 25%;
+	left: 75%;
 	transform: translate(-50%);
-	display: flex;
 }
 ul li{
 	list-style: none;
@@ -139,13 +138,13 @@ ul li{
 ul li a{
 	position: relative;
 	display: block;
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	text-align: center;
-	line-height: 40px;
-	color: grey;
+	line-height: 60px;
+	color: black;
 	overflow: hidden;
-	margin: 8px;
+	margin: 25px;
 	transition: .2s;
 	border: 1px solid rgba(0,0,0,1);
 	transform: rotate(45deg);
