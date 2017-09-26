@@ -1,9 +1,7 @@
 body{
 	margin: 0;
-	/*
-	background: url('IMG_20170123_192702.jpg') no-repeat;
+	background: url('../images/pink.jpg') no-repeat;
 	background-size: cover;
-	*/
 }
 
 header {
