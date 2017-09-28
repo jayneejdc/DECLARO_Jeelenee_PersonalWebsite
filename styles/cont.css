@@ -26,7 +26,6 @@ header h1 {
 #container{
 	width:  80%;
 	height: 450px;
-	border: 1px solid black;
 	margin: 0 auto;
 	position: relative;
 }
@@ -38,23 +37,22 @@ header h1 {
 }
 
 #container>.btn{
-	position: absolute;
+	position: relative;
 	width: 50px;
 	height: 50px;
 	border: none;
-	border-radius: 25px;
+	border-radius: 90px;
 	top: 200px;
-	background: black;
-	color: white;
+	background: rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 }
-
+/*hover for the button on the slideshow*/
 #container>#btn1:hover{
-	box-shadow: 10px 0px 20px 0px black;
+	box-shadow: 5px 0px 10px 0px pink;
 }
 
 #container>#btn2:hover{
-	box-shadow: -10px 0px 20px 10px black;
+	box-shadow: -5px 0px 10px 0px pink;
 }
 
 #btn1{
