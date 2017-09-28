@@ -11,9 +11,24 @@
 			<img class="slides" src="images/slide1.jpg"/>
 			<img class="slides" src="images/slide2.jpg"/>
 			<img class="slides" src="images/slide3.jpeg"/>
-			<button class="btn" id="btn1">&#10094;</button>
-			<button class="btn" id="btn2">&#10095;</button>
+			<button class="btn" onclick="plusindex(-1)" id="btn1">&#10094;</button>
+			<button class="btn" onclick="plusindex(1)" id="btn2">&#10095;</button>
 		</div>
+
+		<script>
+			var index = 0;
+			showImage(1);
+			function showImage(){
+				var i;
+				var x = document.getElementsByClassName("slides")
+				if(n> x.length){index = 1};
+				if(n < 1) {index = x.length};
+				for(i=0; i<x.length; i++){
+					x[i].style.display = "none";
+				}
+				x[index-1].style.display = "block;"
+			}
+		</script>
 	<body>
 		<header>			
 			<nav>		 
