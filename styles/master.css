@@ -53,16 +53,6 @@ header h1 {
 	box-shadow: -5px 0px 10px 0px pink;
 }
 
-#btn1{
-	position: relative;
-	float: left;
-}
-
-#btn2{
-	position: relative;
-	float: right;
-}
-
 nav ul {
 	display: inline;
 	padding: 0px;

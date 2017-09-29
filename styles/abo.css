@@ -5,7 +5,6 @@ body{
 }
 
 header {
-
 	background: rgba(0, 0, 0, 0.4);
 	color: white;
 	padding: 25px 0px 50px 40px;
@@ -54,15 +53,6 @@ header h1 {
 	box-shadow: -5px 0px 10px 0px pink;
 }
 
-#btn1{
-	position: relative;
-	float: left;
-}
-
-#btn2{
-	position: relative;
-	float: right;
-}
 nav ul {
 	display: inline;
 	padding: 0px;
@@ -164,15 +154,21 @@ span:nth-child(8){
 }
 footer {
 	margin: 0;
+
 }
 
 footer p{
-	float: right;
-	margin-right: 20px;
+	background: rgba(255,105,180, 0.8);
+	color: white;
+	padding: 20px 0px 30px 50px;
+	margin-top: 50px;
+	margin-right: 5px;
 	margin-top: 55px;
-	color: black;
+	color: white;
+	text-align: center;
 	font-family: sans-serif;
 }
+
 
 .footer-text{
 	color: grey;
