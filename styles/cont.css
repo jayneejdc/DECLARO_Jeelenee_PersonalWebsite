@@ -45,25 +45,6 @@ header h1 {
 	background: rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 }
-/*hover for the button on the slideshow*/
-#container>#btn1:hover{
-	box-shadow: 5px 0px 10px 0px pink;
-}
-
-#container>#btn2:hover{
-	box-shadow: -5px 0px 10px 0px pink;
-}
-
-#btn1{
-	position: relative;
-	float: left;
-}
-
-#btn2{
-	position: relative;
-	float: right;
-}
-
 nav ul {
 	display: inline;
 	padding: 0px;
