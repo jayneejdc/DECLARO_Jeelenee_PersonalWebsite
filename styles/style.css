@@ -7,7 +7,7 @@ body{
 
 h1 {
 	text-align: center;
-	font-family: 'Calibri Light';
+	font-family: 'Lobster', cursive;
 	font-weight: 400;
 	color: white;
 	font size: 40px;
@@ -24,7 +24,6 @@ h1 {
 	text-align: center;
 	margin-left: 35%;
 	margin-top: 22%;
-	font-family: 'Georgia';
 }
 
 .box-img {
@@ -49,7 +48,7 @@ h1 {
 	padding: 0 1em;
 	cursor: pointer;
 	outline: none;
-	font-family: 'Georgia';
+	font-family: 'Lobster', cursive;
 	font-weight: 900;
 }
 
@@ -59,7 +58,7 @@ h1 {
   	margin: 0px 10px 10px 0px;
   	float: center;
 	border-radius: 10px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Lobster', cursive;
 	font-size: 15px;
 	color: #FFF;
 	text-decoration: none;	
@@ -153,7 +152,7 @@ footer p{
 	margin-right: 20px;
 	margin-top: 320px;
 	color: white;
-	font-family: sans-serif;
+	font-family: 'Lobster', cursive;
 }
 
 .footer-text{
@@ -162,5 +161,4 @@ footer p{
 
 .footer-text:hover{
 	color: pink;
-
 }

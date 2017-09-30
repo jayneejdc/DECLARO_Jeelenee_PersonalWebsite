@@ -13,7 +13,7 @@ header {
 
 header h1 {
 	display : inline;
-	font-family: 'Georgia';
+	font-family: 'Lobster', cursive;
 	font-weight: 400;
 	font size: 30px;
 	float: left;
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 #nav{
-	font-family: 'Georgia';
+	font-family: 'Lobster', cursive;
 }
 
 .homepink{
@@ -118,7 +118,7 @@ nav ul li a {
 	color: white;
 	margin-left: 31%;
 	margin-top: 5%;
-	font-family: 'Georgia';
+	font-family: 'Merienda', cursive;
 }
 
 footer {
@@ -134,7 +134,7 @@ footer p{
 	margin-top: 55px;
 	color: white;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Lobster', cursive;
 }
 
 .footer-text{

@@ -13,7 +13,7 @@ header {
 
 header h1 {
 	display : inline;
-	font-family: 'Georgia';
+	font-family: 'Lobster', cursive;
 	font-weight: 400;
 	font size: 30px;
 	float: left;
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 #nav{
-	font-family: 'Georgia';
+	font-family: 'Lobster', cursive;
 }
 
 .homepink{
@@ -119,13 +119,14 @@ nav ul li a {
 	top: 145%;
 	left: 52%;
 	transform: translate(-50%,50%);
+	
 }
 
 span{
 	color: #262626;
 	background: #fff;
 	padding: 10px 20px;
-	font-family: Georgia;
+	font-family: 'Merienda', cursive;
 	display: table-cell;
 	box-shadow: inset 0 0 5px rgba(0,0,0,.3) 0 5px 0 #ccc;
 	animation: animate .5s infinite;
@@ -181,7 +182,7 @@ span:nth-child(8){
 	color: white;
 	margin-left: 10%;
 	margin-top: 15%;
-	font-family: 'Georgia';
+	font-family: 'Merienda', cursive;
 }
 
 .education{
@@ -193,7 +194,7 @@ span:nth-child(8){
 	color: white;
 	margin-top: -22%;
 	margin-left: 60%;
-	font-family: 'Georgia';
+	font-family: 'Merienda', cursive;
 }
 
 .workExp{
@@ -205,7 +206,7 @@ span:nth-child(8){
 	color: white;
 	margin-top: 5%;
 	margin-left: 28%;
-	font-family: 'Georgia';
+	font-family: 'Merienda', cursive;
 }
 /*FOOTER*/
 footer {
@@ -219,7 +220,7 @@ footer p{
 	margin-top: 10%;
 	color: white;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Lobster', cursive;
 }
 
 .footer-text{
