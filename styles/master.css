@@ -18,7 +18,7 @@ header h1 {
 	font size: 30px;
 	float: left;
 	margin-top: 0px;
-	margin-right: 10px;
+	margin-left: 10px;
 }
 
 #container{
@@ -44,19 +44,11 @@ header h1 {
 	background: rgba(0, 0, 0, 0.4);
 	font-size: 20px;
 }
-/*hover for the button on the slideshow*/
-#container>#btn1:hover{
-	box-shadow: 5px 0px 10px 0px pink;
-}
-
-#container>#btn2:hover{
-	box-shadow: -5px 0px 10px 0px pink;
-}
-
 nav ul {
 	display: inline;
 	padding: 0px;
-	float: left;
+	float: right;
+	margin-right: 10px;
 }
 
 nav ul li{
@@ -92,7 +84,6 @@ nav ul li a {
 	height: 10px;
 }
 
-
 footer {
 	margin: 0;
 }
@@ -115,5 +106,4 @@ footer p{
 
 .footer-text:hover{
 	color: pink;
-
 }
